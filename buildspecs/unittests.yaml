@@ -2,7 +2,7 @@ version: 0.2
 
 phases:
     install:
-        .commands:
+        commands:
             - pip3 install -U -r back-end-python/gameactions/requirements.txt
             - pip3 install -U -r back-end-python/tests/requirements.txt
 
