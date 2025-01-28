@@ -209,6 +209,7 @@ def trivia_question(event, _):
     return True
 
 def trivia_calculate_scores(event, _):
+
     "Calc scores for a game - called from statemachine"
     game_id = event["gameid"]
     question_pos = event["iterator"]["questionpos"]
