@@ -5,7 +5,7 @@ phases:
     runtime-versions:
       nodejs: 16
     commands:
-      - pyenv isntall -s 3.9.0
+      - pyenv install -s 3.9.0
       - pyenv global 3.9.0
 
   build:
